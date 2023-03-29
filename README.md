@@ -23,14 +23,13 @@ To use the app, follow these steps:
 * Use the "Open File" and "Open Directory" buttons to select the images you want to process.
 * Click the "Process Images" button to apply the kernel filter to the images.
 
-
-# Image Processing Algorithm
-The image processing algorithm is implemented in C++ using the OpenCV library. The algorithm performs a 2D convolution operation on the input image using a specified kernel. The kernel is a 5x5 matrix of floating-point values that defines the weights of neighboring pixels in the convolution operation. The algorithm loads the input image into memory as a 3D array of integers, with each pixel represented as a 3-element vector of red, green, and blue color channel values. The convolution operation is performed using the filter2D function from the OpenCV library. The output image is also represented as a 3D array of integers, with each pixel again represented as a 3-element vector of red, green, and blue color channel values. The resulting image is then saved to a file using the OpenCV imwrite function.
-
-# Dependencies
+## Dependencies
 The app requires the following dependencies to be installed:
 
 * Python 3.9
 * NumPy
 * OpenCV
 * Tkinter
+
+# Image Processing Algorithm
+The image processing algorithm is implemented in C++ using the OpenCV library. The algorithm performs a 2D convolution operation on the input image using a specified kernel. The kernel is a 5x5 matrix of floating-point values that defines the weights of neighboring pixels in the convolution operation. The algorithm loads the input image into memory as a 3D array of integers, with each pixel represented as a 3-element vector of red, green, and blue color channel values. The convolution operation is performed using the filter2D function from the OpenCV library. The output image is also represented as a 3D array of integers, with each pixel again represented as a 3-element vector of red, green, and blue color channel values. The resulting image is then saved to a file using the OpenCV imwrite function.
