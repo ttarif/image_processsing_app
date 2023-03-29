@@ -30,7 +30,7 @@ The image processing algorithm is implemented in C++ using the OpenCV library. T
 # Dependencies
 The app requires the following dependencies to be installed:
 
-Python 3.9
-NumPy
-OpenCV
-Tkinter
+* Python 3.9
+* NumPy
+* OpenCV
+* Tkinter
