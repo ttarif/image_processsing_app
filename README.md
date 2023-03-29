@@ -23,7 +23,8 @@ To use the app, follow these steps:
 * Use the "Open File" and "Open Directory" buttons to select the images you want to process.
 * Click the "Process Images" button to apply the kernel filter to the images.
 
-<font size= "5"> Dependencies</font> \
+<font size= "5">Dependencies:</font> \ \
+
 The app requires the following dependencies to be installed:
 
 * Python 3.9
